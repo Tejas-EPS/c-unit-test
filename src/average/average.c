@@ -2,7 +2,7 @@
 
 float average(float arr[], unsigned int size)
 {
-	float total = 0;
+	float total = 0; // initalization
 	for (unsigned int i = 0; i < size; i++)
 	{
 		total += arr[i];
